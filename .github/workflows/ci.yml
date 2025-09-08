@@ -20,7 +20,7 @@ jobs:
         ghc: ["9.2.5"]
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
 
     - uses: haskell/actions/setup@v2
       name: Setup Haskell Stack
